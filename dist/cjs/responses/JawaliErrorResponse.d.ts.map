@@ -1,0 +1,1 @@
+{"version":3,"file":"JawaliErrorResponse.d.ts","sourceRoot":"","sources":["../../../src/responses/JawaliErrorResponse.ts"],"names":[],"mappings":"AAAA,OAAO,cAAc,MAAM,kBAAkB,CAAC;AAE9C,MAAM,CAAC,OAAO,OAAO,mBAAoB,SAAQ,cAAc;gBAC/C,QAAQ,EAAE,GAAG,EAAE,MAAM,EAAE,MAAM,GAAG,MAAM;CAUrD"}

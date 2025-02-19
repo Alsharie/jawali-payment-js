@@ -1,0 +1,1 @@
+{"version":3,"file":"authHelper.d.ts","sourceRoot":"","sources":["../../src/authHelper.ts"],"names":[],"mappings":"AAmBA,cAAM,UAAU;IAEZ,OAAO,CAAC,eAAe,CAAS;IAChC,OAAO,CAAC,iBAAiB,CAAS;;IAOlC,YAAY,CAAC,KAAK,EAAE,MAAM;IAI1B,YAAY;IAIZ,cAAc,CAAC,KAAK,EAAE,MAAM;IAI5B,cAAc;CAGjB;AAED,eAAe,UAAU,CAAC"}

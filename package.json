@@ -1,0 +1,33 @@
+{
+  "name": "@alsharie/jawalijs",
+  "version": "1.0.2",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js"
+  },
+  "type": "module",
+  "description": "A Node.js package for interacting with the Jawali payment gateway",
+  "keywords": [
+    "jawali",
+    "payment",
+    "gateway"
+  ],
+  "author": "Abdulrahman alsharie",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "axios-retry": "^4.5.0",
+    "node-fetch": "^3.3.1"
+  },
+  "scripts": {
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc --project tsconfig.esm.json",
+    "build:cjs": "tsc --project tsconfig.cjs.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  }
+}
